@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>iphoneCSS</title>
+        <link rel="stylesheet" href="styles.css">
+   <script
+  src="https://code.jquery.com/jquery-3.5.1.js"></script>    
+    <script>
+     $(document).ready(function(){
+         $('.home').click(function(){
+             $('.screen').toggleClass('.active')
+         });
+     });
+    </script>
+    </head>
+    <body>
+        <main>
+            <section class="center"> 
+                <article class="mobile">
+                <section class="screen active"></section>
+                <section class="home"></section>
+                <section class="inner"></section>
+                <ul class="volume">
+                    <li></li>
+                    <li></li>
+                    </ul>
+                     <ul class="silent">
+                    <li></li>
+            
+                    </ul>
+                    <ul class="sleep">
+                    <li></li>
+            
+                    </ul>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
